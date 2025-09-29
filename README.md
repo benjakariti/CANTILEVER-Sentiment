@@ -1,6 +1,7 @@
 This project is a Sentiment Analysis system built on the IMDB movie reviews dataset.
 It compares simple baseline machine learning models with a lightweight neural network to explore how text preprocessing and modeling choices affect performance.
 
+
 Project Overview
 The goal of this project is to classify IMDB movie reviews as positive or negative.
 It was designed as a learning project to practice the full machine learning workflow:
@@ -39,6 +40,7 @@ Prediction function
 
 Added a small script (src/predict.py) to load trained models and run predictions on new text reviews.
 
+
 Project Structure
 CANTILEVER-Sentiment/
 │
@@ -61,6 +63,8 @@ CANTILEVER-Sentiment/
 ├── requirements.txt     # Python dependencies
 └── README.md            # This file
 
+
+
 How to Run
 Clone the repo
 
@@ -74,7 +78,6 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-
 Run Jupyter notebooks
 
 jupyter lab
@@ -82,9 +85,13 @@ jupyter lab
 
 Explore notebooks/ for data analysis and training code.
 
+
 Run inference
 
+
 python src/predict.py "This movie was absolutely fantastic!"
+
+
 
 Results
 Logistic Regression: 0.88 accuracy
@@ -93,12 +100,16 @@ SVM: 0.86 accuracy
 
 Simple Neural Network: 0.90+ accuracy
 
+
+
 Next Steps
 Experiment with pre-trained embeddings (GloVe / Word2Vec).
 
 Explore LSTM or Transformers for improved performance.
 
 Wrap inference into a simple API or web app for demo purposes.
+
+
 
 Author
 Benjamin Kariti
