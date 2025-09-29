@@ -115,5 +115,3 @@ Author
 Benjamin Kariti
 Learning project in Machine Learning + NLP, running on Ubuntu VM with Python 3.12
 
-Benjamin Kariti
-Learning project in Machine Learning + NLP, running on Ubuntu VM with Python 3.12.
